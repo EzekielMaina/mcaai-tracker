@@ -56,7 +56,7 @@ const DATA = {
     { name: "Joel Otachi", topic: "A comparative evaluation approach for sentiment analysis in low-resource African languages: case studies of Swahili and Kalenjin", supervisors: "Dr. Lilian Wanzare & Dr. James Obuhuma", area: "Sentiment", progress: 1, pubs: 0 },
     { name: "Stanley Oduor", topic: "A cross-lingual transformer-based text-to-speech system with learned prosody conditioning for Dholuo text-to-Swahili speech synthesis", supervisors: "Dr. Vivian Oloo & Dr. Calvins Otieno", area: "TTS", progress: 1, pubs: 0 },
     { name: "Hope Kerubo", topic: "LinguaID: a text based Language Identification model for Kenyan languages", supervisors: "Dr. Lilian Wanzare & Dr. Samuel Oonge", area: "LID", progress: 0, pubs: 0 },
-    { name: "Judith Odera", topic: "Token-level language identification for English–Swahili–Luo code-switching", supervisors: "Dr. Lilian Wanzare & Dr. James Obuhuma", area: "LID", progress: 0, pubs: 0 },
+    { name: "Judith Odera", topic: "Token-level language identification for English–Swahili–Luo code-switching", supervisors: "Dr. Lilian Wanzare & Dr. James Obuhuma", area: "LID", progress: 1, pubs: 0 },
     { name: "Valary Joyce", topic: "A deep learning model for Swahili–Dholuo speech transcription with edge-cloud cascading for East African infrastructure constraints", supervisors: "Dr. Vivian Oloo & Dr. Calvins Otieno", area: "ASR", progress: 1, pubs: 0 },
     { name: "Biatus Kamau", topic: "Glossary-constrained byte-level neural machine translation for low-resource languages: a case study on Kikuyu", supervisors: "Dr. Lilian Wanzare & Dr. Calvins Otieno", area: "MT", progress: 1, pubs: 0 },
     { name: "Martin Okech", topic: "Analysing the impact of speech style and utterance duration on wav2vec2-based ASR and language identification for low-resource Kenyan languages", supervisors: "—", area: "ASR", progress: 1, pubs: 0 },
@@ -470,7 +470,7 @@ export default function Page() {
 
       <footer>
         <span>Progress is updated by MCAAI directly in the source file — this page is view-only.</span>
-        <span>MCAAI · updated by hand from the department tracking sheet</span>
+        <span>MCAAI · updated by hand from the School tracking sheet</span>
       </footer>
     </>
   );
