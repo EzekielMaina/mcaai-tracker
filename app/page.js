@@ -51,22 +51,22 @@ const RESEARCH_LABEL = { msc: "Masters", phd: "PhD" };
 /* progress: number of leading stages completed. 0 = not started (no consent yet). */
 const DATA = {
   msc: [
-    { name: "John William Muga", topic: "An edge-native multilingual neural machine translation model for Swahili, Luo and Kalenjin", supervisors: "Dr. Lilian & Prof. Silvester", area: "MT", progress: 1, pubs: 0 },
-    { name: "Boniface Mwau", topic: "A linguistically-informed cross-lingual neural text-to-speech model for agricultural advisory in Kikuyu using Swahili transfer learning", supervisors: "Dr. Lilian & Dr. Vivian", area: "TTS", progress: 1, pubs: 0 },
-    { name: "Joel Otachi", topic: "A comparative evaluation approach for sentiment analysis in low-resource African languages: case studies of Swahili and Kalenjin", supervisors: "Dr. Lilian D.A. Wanzare & Dr. James Obuhuma", area: "Sentiment", progress: 1, pubs: 0 },
+    { name: "John William Muga", topic: "An edge-native multilingual neural machine translation model for Swahili, Luo and Kalenjin", supervisors: "Dr. Lilian Wanzare & Prof. Silvester McOyowo", area: "MT", progress: 1, pubs: 0 },
+    { name: "Boniface Mwau", topic: "A linguistically-informed cross-lingual neural text-to-speech model for agricultural advisory in Kikuyu using Swahili transfer learning", supervisors: "Dr. Lilian Wanzare & Dr. Vivian Oloo", area: "TTS", progress: 1, pubs: 0 },
+    { name: "Joel Otachi", topic: "A comparative evaluation approach for sentiment analysis in low-resource African languages: case studies of Swahili and Kalenjin", supervisors: "Dr. Lilian Wanzare & Dr. James Obuhuma", area: "Sentiment", progress: 1, pubs: 0 },
     { name: "Stanley Oduor", topic: "A cross-lingual transformer-based text-to-speech system with learned prosody conditioning for Dholuo text-to-Swahili speech synthesis", supervisors: "Dr. Vivian Oloo & Dr. Calvins Otieno", area: "TTS", progress: 1, pubs: 0 },
-    { name: "Hope Kerubo", topic: "SautiID: a speech-based language identification model for Kenyan languages", supervisors: "Dr. Lilian Wanzare & Dr. Samuel Oonge", area: "LID", progress: 0, pubs: 0 },
-    { name: "Judith Odera", topic: "Token-level language identification for English–Swahili–Luo code-switching", supervisors: "—", area: "LID", progress: 0, pubs: 0 },
+    { name: "Hope Kerubo", topic: "LinguaID: a text based Language Identification model for Kenyan languages", supervisors: "Dr. Lilian Wanzare & Dr. Samuel Oonge", area: "LID", progress: 0, pubs: 0 },
+    { name: "Judith Odera", topic: "Token-level language identification for English–Swahili–Luo code-switching", supervisors: "Dr. Lilian Wanzare & Dr. James Obuhuma", area: "LID", progress: 0, pubs: 0 },
     { name: "Valary Joyce", topic: "A deep learning model for Swahili–Dholuo speech transcription with edge-cloud cascading for East African infrastructure constraints", supervisors: "Dr. Vivian Oloo & Dr. Calvins Otieno", area: "ASR", progress: 1, pubs: 0 },
     { name: "Biatus Kamau", topic: "Glossary-constrained byte-level neural machine translation for low-resource languages: a case study on Kikuyu", supervisors: "Dr. Lilian Wanzare & Dr. Calvins Otieno", area: "MT", progress: 1, pubs: 0 },
     { name: "Martin Okech", topic: "Analysing the impact of speech style and utterance duration on wav2vec2-based ASR and language identification for low-resource Kenyan languages", supervisors: "—", area: "ASR", progress: 1, pubs: 0 },
-    { name: "Teresa Peter", topic: "Synthetic cross-lingual transfer learning for typologically related Kenyan Nilotic languages: a case study for Maasai, Dholuo and Kalenjin", supervisors: "—", area: "Cross-lingual", progress: 0, pubs: 0 },
+    { name: "Teresa Peter", topic: "A Continuous Sign Language Recognition Model for Kenyan Sign Language", supervisors: "Dr. Lilian Wanzare & Dr. Vivian Oloo", area: "Sign Language", progress: 0, pubs: 0 },
   ],
   phd: [
-    { name: "Cynthia Amol", topic: "Typologically-informed automatic speech recognition for low-resource Nilotic languages: Dholuo, Kalenjin and Maasai", supervisors: "Dr. Lilian D.A. Wanzare & Dr. James Obuhuma", area: "ASR", progress: 0, pubs: 0 },
-    { name: "Ezekiel Maina", topic: "A multimodal neural signing model for Kenyan Sign Language", supervisors: "Dr. Lilian D.A. Wanzare & Dr. James Obuhuma", area: "Sign Language", progress: 1, pubs: 0 },
+    { name: "Cynthia Amol", topic: "Typologically-informed automatic speech recognition for low-resource Nilotic languages: Dholuo, Kalenjin and Maasai", supervisors: "Dr. Lilian Wanzare & Dr. James Obuhuma", area: "ASR", progress: 0, pubs: 0 },
+    { name: "Ezekiel Maina", topic: "A multimodal neural signing model for Kenyan Sign Language", supervisors: "Dr. Lilian Wanzare & Dr. James Obuhuma", area: "Sign Language", progress: 1, pubs: 0 },
     { name: "Edwin Onkoba", topic: "Retrieval-grounded LLM strategies for Nilotic synthetic text generation", supervisors: "Dr. Lilian Wanzare & Dr. Calvins Otieno", area: "Synthetic Data", progress: 1, pubs: 0 },
-    { name: "Nelson Odhiambo", topic: "Machine translation for Kenyan languages (title to be confirmed)", supervisors: "Dr. Lilian D.A. Wanzare & Dr. James Obuhuma", area: "MT", progress: 0, pubs: 0 },
+    { name: "Nelson Odhiambo", topic: "Machine translation for Kenyan languages (title to be confirmed)", supervisors: "Dr. Lilian Wanzare & Dr. James Obuhuma", area: "MT", progress: 0, pubs: 0 },
   ],
 };
 
